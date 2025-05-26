@@ -58,7 +58,6 @@ formatCurrency(1234567, {
   locale: 'hi-IN',
   currency: 'INR'
 })
-
 // → ₹12,34,567
 ```
 
