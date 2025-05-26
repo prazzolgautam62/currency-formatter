@@ -39,6 +39,27 @@ formatCurrency(1234567, {
   currency: 'USD'
 });
 // → $1,234,567
+
+formatCurrency(1234567, {
+  prefix: 'Rs',
+  format: 'nepali'
+})
+// → Rs 12,34,567
+
+formatCurrency(1234567, {
+  format: 'locale',
+  locale: 'fr-FR',
+  currency: 'EUR'
+})
+// → 1 234 567 €
+
+formatCurrency(1234567, {
+  format: 'locale',
+  locale: 'hi-IN',
+  currency: 'INR'
+})
+
+// → ₹12,34,567
 ```
 
 ## 🧰 API
