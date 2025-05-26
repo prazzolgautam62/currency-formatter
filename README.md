@@ -94,3 +94,49 @@ formatCurrency(1234567, {
 npm install
 npm run test
 ```
+
+## 🤝 Contributing
+### Fork the repository
+Click the Fork button on the top right of the [GitHub repo](https://github.com/prazzolgautam62/currency-formatter).
+
+### Clone your fork locally
+```bash
+git clone https://github.com/your-username/currency-formatter.git
+cd currency-formatter
+```
+
+### Create a new branch for your changes
+```bash
+git checkout -b feature/your-feature-name
+```
+### Make your changes
+Add your code in the src/ directory.
+
+Run the build and test:
+
+```bash
+npm run build
+npm run test
+```
+
+### Commit your changes
+```bash
+git add .
+git commit -m "feat: add your feature"
+```
+
+### Create a Pull Request
+Go to your fork on GitHub
+
+Click "Compare & pull request"
+
+Provide a clear description of the changes
+
+### 🔍 Guidelines
+- Use clear, meaningful commit messages
+- Write or update relevant tests if necessary
+- Keep pull requests focused and minimal
+- Follow existing code style and structure
+
+
+
