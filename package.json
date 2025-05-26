@@ -1,0 +1,38 @@
+{
+  "name": "@prazzol/currency-formatter",
+  "version": "1.0.0",
+  "description": "Format currency in Nepali and international styles with custom prefix support.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-node test/test.ts"
+  },
+  "keywords": [
+    "currency",
+    "formatter",
+    "nepali",
+    "international",
+    "locale",
+    "money",
+    "number",
+    "format",
+    "rupiya",
+    "NPR",
+    "INR",
+    "USD",
+    "currency-formatter",
+    "typescript",
+    "nepali-currency",
+    "number-formatting",
+    "money-formatter",
+    "financial",
+    "localization"
+  ],
+  "author": "Prajwal Gautam",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}
